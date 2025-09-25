@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & The Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Basics & The Box Model</h1>
+        <p>Understanding how CSS works and the importance of the box model</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="intro">
+            <h2>Introduction to CSS</h2>
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+        </section>
+        
+        <section class="box-model">
+            <h2>The CSS Box Model</h2>
+            <p>Every element in web design is a rectangular box. The CSS box model describes this box and consists of: content, padding, border, and margin.</p>
+            
+            <div class="box-model-demo">
+                <div class="margin">
+                    Margin
+                    <div class="border">
+                        Border
+                        <div class="padding">
+                            Padding
+                            <div class="content">
+                                Content
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cards">
+            <h2>Card Layout Example</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>This is a demonstration of the box model with a card layout. Notice the padding, borders, and margins.</p>
+                    <button>Learn More</button>
+                </div>
+                
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>This card has different styling to show how CSS can change the appearance of similar elements.</p>
+                    <button>Learn More</button>
+                </div>
+                
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Each card is a separate box with its own properties that can be manipulated with CSS.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="spacing">
+            <h2>Spacing Examples</h2>
+            <div class="spacing-demo">
+                <div class="spacing-box box1">
+                    <h3>Box with small padding</h3>
+                    <p>Padding: 10px</p>
+                    <p>Margin: 10px</p>
+                </div>
+                
+                <div class="spacing-box box2">
+                    <h3>Box with medium padding</h3>
+                    <p>Padding: 20px</p>
+                    <p>Margin: 20px</p>
+                </div>
+                
+                <div class="spacing-box box3">
+                    <h3>Box with large padding</h3>
+                    <p>Padding: 30px</p>
+                    <p>Margin: 30px</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 CSS Basics & Box Model Demonstration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
